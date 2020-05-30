@@ -19,6 +19,4 @@ jobs:
           uses: actions/upload-artifact@v2
           with:	
             name: .exe test	
-            path: 
-                - 'build/DanmakuTree *.exe'
-                - '!Setup'
+            path: build/DanmakuTree *.exe \n !Setup
